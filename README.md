@@ -20,7 +20,7 @@ On the carpet of the Project we have two worlds the one that said Project Test.w
 ![7](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/9815964e-619b-419e-b850-f6c5d1712c18)
 
    
-  3. Once we have the world on the webots software we have to upload the code that also is attached on the main files (DPD_Code).
+  3. Once we have the world on the webots software we have to upload the code that also is attached on the main files (Project/Project/controllers/Drone/Drone.c).
 
 ![8](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/a5e5ec66-34d8-4c33-a6c6-641908fd7232)
 
@@ -32,7 +32,7 @@ On the carpet of the Project we have two worlds the one that said Project Test.w
   5. Once we have upload the code we are ready to start the simulation and analyse the simulator and end the simulation, we can edit the coordinates for changing the trajectories.
 
 ## Results 
-On the next video we can see the simulation that we already have done with the trajectories that the DPD_Code already have, the simulation time is a bit longer so you can put another velocity. 
+On the next video we can see the simulation that we already have done with the trajectories that the drone code already have, the simulation time is a bit longer so you can put another velocity. 
 
 https://winliveudlap-my.sharepoint.com/:f:/r/personal/kevin_vazquezcs_udlap_mx/Documents/SELECTED%20THEMES%20I?csf=1&web=1&e=MgM256
 
