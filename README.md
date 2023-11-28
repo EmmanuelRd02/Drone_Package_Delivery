@@ -21,6 +21,9 @@ In this section we will explain and justify why we design the path as in the vid
    
   3. Once we have the world on the webots software we have to upload the code that also is attached on the main files. (DPD_Code).
 
+![8](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/a5e5ec66-34d8-4c33-a6c6-641908fd7232)
 
     
   4. Define the coordinates of the path, in this case the code already have the a path that will deliver 10 package to different residences one by one. 
+
+![3](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/0dc8d2a1-16f7-45cf-a7ee-5eb1b16fac92)
