@@ -22,9 +22,9 @@ On the carpet of the Project we have two worlds the one that said Project Test.w
    
   3. Once we have the world on the webots software we have to upload the code that also is attached on the main files (Project/Project/controllers/Drone/Drone.c).
 
-![8](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/a5e5ec66-34d8-4c33-a6c6-641908fd7232)
+![8](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/7ecbf576-7b50-487a-8c10-901a6859eea1)
 
-    
+
   4. Define the coordinates of the path, in this case the code already has a path that will deliver 10 package to different residences one by one. 
 
 ![3](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/0dc8d2a1-16f7-45cf-a7ee-5eb1b16fac92)
