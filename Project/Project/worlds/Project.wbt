@@ -1,0 +1,612 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  info [
+    "This demonstration shows a DJI Mavic 2 PRO flying over a rural area."
+    "After the drone has taken off, you can control it with the keyboard of your computer."
+  ]
+  title "Project"
+  basicTimeStep 10
+  defaultDamping Damping {
+    linear 0.5
+    angular 0.5
+  }
+}
+Viewpoint {
+  orientation -0.31090393356982865 0.013685947627057526 0.9503428007452663 3.132515862985079
+  position 5.941824396711791 -0.8632102010268025 4.937019383640424
+  near 0.2
+  follow "Drone"
+  followSmoothness 0.2
+}
+TexturedBackground {
+  texture "noon_sunny_empty"
+}
+TexturedBackgroundLight {
+  luminosity 1.5
+}
+Floor {
+  translation -30 0 0
+  size 150 200
+  tileSize 6 6
+  appearance SandyGround {
+    colorOverride 0 0.376471 0
+  }
+}
+Bench {
+  translation -37.38 -10.8 0
+}
+Bench {
+  translation -18.7059 -73.7791 0
+  rotation 0 0 1 -0.785395307179586
+  name "bench(8)"
+}
+Bench {
+  translation -6.57829 -78.0869 0
+  rotation 0 0 1 0.785401
+  name "bench(14)"
+}
+Bench {
+  translation -21.8509 -89.6142 0
+  rotation 0 0 1 -3.1415853071795863
+  name "bench(10)"
+}
+Bench {
+  translation -24.96 41.4 0
+  rotation 0 0 1 3.14159
+  name "bench(3)"
+}
+Church {
+  translation -11.2421 -85.181 0
+  rotation 0 0 1 2.35619
+}
+StripBuilding {
+  translation -40.97 13.15 0
+}
+SuburbanHouse {
+  translation -14.36 -38.02 0
+  rotation 0 0 1 3.14159
+  name "suburban house(1)"
+}
+SmallManor {
+  translation -18.63 32.57 0
+  rotation 0 0 1 3.14159
+}
+SmallManor {
+  translation -18 -53.99 0
+  rotation 0 0 1 3.14159
+  name "small manor(1)"
+}
+ResidentialTower {
+  translation -19.75 74.04 0
+  rotation 0 0 1 -1.5707953071795862
+}
+ResidentialTower {
+  translation -44.87 74.07 0
+  rotation 0 0 1 -1.5707953071795862
+  name "residential tower(3)"
+}
+Museum {
+  translation -47 42 0
+}
+ModernSuburbanHouse {
+  translation -16.26 13.68 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Pedestrian {
+  translation 19.114 -0.61353 1.27
+  rotation 0 0 1 -0.785395307179586
+}
+Pedestrian {
+  translation 7.2455 -0.664299 1.31
+  rotation 0 0 1 -3.1415853071795863
+  name "pedestrian(2)"
+}
+Pedestrian {
+  translation 1.71454 1.57241 1.26
+  rotation 0 0 -1 2.35619
+  name "pedestrian(5)"
+}
+Pedestrian {
+  translation 3.59931 -5.38121 1.25
+  rotation 0 0 1 1.5708
+  name "pedestrian(1)"
+}
+Truck {
+  translation 11.9 1.12 0.53
+  rotation 0 0 1 3.14159
+  name "vehicle(1)"
+}
+ComposedHouse {
+  translation -10.69 -12.94 0
+  rotation 0 0 1 1.5708
+}
+SquareManhole {
+  translation 0 0 -0.02
+}
+DEF Boxes Group {
+  children [
+    CardboardBox {
+      translation 1.1618 3.09115 0.46
+      rotation 0 0 -1 1.5708
+    }
+    CardboardBox {
+      translation 0.111078 3.08192 0.45
+      rotation 0 0 -1 1.309
+      name "cardboard box(17)"
+    }
+    CardboardBox {
+      translation 0.417887 1.79883 0.16
+      rotation 0 0 1 -2.3561953071795863
+      name "cardboard box(11)"
+      size 0.3 0.3 0.3
+    }
+    CardboardBox {
+      translation 0.637168 2.58365 0.3
+      rotation 0 0 1 -2.3561953071795863
+      name "cardboard box(13)"
+      size 0.3 0.3 0.3
+    }
+    CardboardBox {
+      translation 1.1267 2.54978 0.32
+      rotation 0 0 -1 0.523601
+      name "cardboard box(14)"
+      size 0.3 0.3 0.3
+    }
+    CardboardBox {
+      translation 1.44041 2.2532 0.16
+      rotation 0 0 1 -1.047195307179586
+      name "cardboard box(15)"
+      size 0.3 0.3 0.3
+    }
+    CardboardBox {
+      translation 0.99488 1.92154 0.11
+      rotation 0 0 -1 0.523601
+      name "cardboard box(18)"
+      size 0.2 0.2 0.2
+    }
+    CardboardBox {
+      translation 1.17522 1.40134 0.12
+      rotation 0 0 -1 0.261802
+      name "cardboard box(24)"
+      size 0.2 0.2 0.2
+    }
+    CardboardBox {
+      translation -0.134806 1.51492 0.11
+      rotation 0 0 -1 2.22582e-06
+      name "cardboard box(22)"
+      size 0.2 0.2 0.2
+    }
+    CardboardBox {
+      translation 0.0812418 2.17583 0.1
+      rotation 0 0 1 0.523597
+      name "cardboard box(20)"
+      size 0.2 0.2 0.2
+    }
+    CardboardBox {
+      translation -0.209434 2.50167 0.1
+      rotation 0 0 1 1.0472
+      name "cardboard box(21)"
+      size 0.2 0.2 0.2
+    }
+  ]
+}
+DEF Pine Group {
+  children [
+    Pine {
+      translation -38.3949 -21.9054 0
+      rotation 0 0 1 -2.6179953071795863
+      name "pine tree(7)"
+    }
+    Pine {
+      translation -24.9083 -16.1854 0
+      rotation 0 0 1 -2.6179953071795863
+      name "pine tree(5)"
+    }
+    Pine {
+      translation -21.7707 59.13 0
+      rotation 0 0 1 3.14159
+      name "pine tree(30)"
+    }
+    Pine {
+      translation -37.1407 71.03 0
+      rotation 0 0 1 3.14159
+      name "pine tree(33)"
+    }
+    Pine {
+      translation -40.5787 25.1353 0
+      rotation 0 0 1 -2.6179953071795863
+      name "pine tree(27)"
+    }
+    Pine {
+      translation -23.7226 -60.8939 0
+      name "pine tree(20)"
+    }
+    Pine {
+      translation -22.2226 -82.3739 0
+      name "pine tree(16)"
+    }
+    Pine {
+      translation -4.7626 -73.6939 0
+      name "pine tree(9)"
+    }
+    Pine {
+      translation -5.3426 -42.1139 0
+      name "pine tree(4)"
+    }
+    Pine {
+      translation -5.1429 11.9121 0
+      name "pine tree(3)"
+    }
+  ]
+}
+Mavic2Pro {
+  translation 0 0 0.11
+  rotation 0 0 1 3.141590777218456
+  name "Drone"
+  controller "Drone"
+  cameraSlot [
+    Camera {
+      width 400
+      height 240
+      near 0.2
+    }
+  ]
+}
+HouseWithGarage {
+  translation -14.41 49.48 0
+  rotation 0 0 1 3.14159
+}
+MotelReception {
+  translation 3.5 -7.63 0
+  rotation 0 0 1 1.5708
+}
+DEF Forest Group {
+  children [
+    Forest {
+      translation 12.2351 34.1414 -0.22
+      rotation 0 0 -1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+    Forest {
+      translation -93.1149 -62.8885 -0.22
+      rotation 0 0 -1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+    Forest {
+      translation -93.1149 22.1615 -0.22
+      rotation 0 0 -1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+    Forest {
+      translation 14.7651 -69.7186 -0.22
+      rotation 0 0 -1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+    Forest {
+      translation -71.2349 60.2514 -0.22
+      rotation 0 0 1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+    Forest {
+      translation 30.5451 65.9714 -0.22
+      rotation 0 0 1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+    Forest {
+      translation -72.4049 -26.8387 -0.22
+      rotation 0 0 1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+    Forest {
+      translation 36.0651 -37.7586 -0.22
+      rotation 0 0 1 1.5708
+      shape [
+        -60 -30
+        30 -30
+        24 9
+      ]
+      density 0.1
+      type "hackberry tree"
+    }
+  ]
+}
+DEF Dirt_road Group {
+  children [
+    Floor {
+      translation -41 64 0.01
+      name "floor(5)"
+      size 20 6
+      appearance Parquetry {
+        type "light strip"
+        colorOverride 0.333333 0.333333 0
+      }
+    }
+    Floor {
+      translation -20 64 0.01
+      name "floor(6)"
+      size 20 6
+      appearance Parquetry {
+        type "light strip"
+        colorOverride 0.333333 0.333333 0
+      }
+    }
+    Floor {
+      translation -17 -67 0.01
+      name "floor(3)"
+      size 25 6
+      appearance Parquetry {
+        type "light strip"
+        colorOverride 0.333333 0.333333 0
+      }
+    }
+    Floor {
+      translation -32 0 0.02
+      rotation 0 0 1 1.5707996938995747
+      name "floor(2)"
+      size 200 6
+      appearance Parquetry {
+        type "light strip"
+        colorOverride 0.333333 0.333333 0
+      }
+    }
+    Floor {
+      translation -41 18 0.01
+      name "floor(4)"
+      size 20 6
+      appearance Parquetry {
+        type "light strip"
+        colorOverride 0.333333 0.333333 0
+      }
+    }
+    Floor {
+      translation -17 0 0.01
+      name "floor(1)"
+      size 34 6
+      appearance Parquetry {
+        type "light strip"
+        colorOverride 0.333333 0.333333 0
+      }
+    }
+  ]
+}
+Fence {
+  translation -0.740002 5.35 0
+  rotation 0 0 1 1.5708
+  name "fence(1)"
+  height 3
+  poleGap 0.4
+  poleRadius 0.1
+  poleShape "diamond"
+}
+Fence {
+  translation -0.740001 5.43 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "fence(3)"
+  height 5
+  poleGap 0.3
+  poleRadius 0.2
+  poleShape "H"
+  poleAppearance RedBricks {
+  }
+  path [
+    0 0 0
+    0 94 0
+  ]
+}
+Fence {
+  translation -0.739955 -4.91 0
+  rotation 0 0 1 -3.1415853071795863
+  name "fence(4)"
+  height 5
+  poleGap 0.3
+  poleRadius 0.2
+  poleShape "H"
+  poleAppearance RedBricks {
+  }
+  path [
+    0 0 0
+    0 94 0
+  ]
+}
+Fence {
+  translation -0.74 -4.67 0
+  rotation 0 0 1 1.5708
+  name "fence(2)"
+  height 3
+  poleGap 0.4
+  poleRadius 0.1
+  poleShape "diamond"
+}
+StraightRoadSegment {
+  translation 0 -1 0.001
+}
+StraightRoadSegment {
+  translation 10 -1 0.001
+  name "road(1)"
+}
+DEF Pints Group {
+  children [
+    Solid {
+      translation -14 7 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+    }
+    Solid {
+      translation -44 68 0
+      rotation 0 1 0 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation -22 51 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation -37 40 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation -37 -55 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+    Solid {
+      translation -18 -79 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation -16 -43 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+    Solid {
+      translation -26 -20 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation -37 -5 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation -14 -7 0
+      scale 6 6 6
+      children [
+        Shape {
+          appearance BakelitePlastic {
+          }
+          geometry Box {
+            size 0.15 0.15 0.01
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+  ]
+}
