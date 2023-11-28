@@ -15,7 +15,7 @@ On the carpet of the Project we have two worlds the one that said Project Test.w
 ![1](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/a54b3b56-3491-49b9-8022-6224d8352cb3)
 
      
-  3. We must put stop to the simulation for avoid any warning of the software.
+  3. We must put stop to the simulation to avoid any warning of the software.
 
 ![7](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/9815964e-619b-419e-b850-f6c5d1712c18)
 
