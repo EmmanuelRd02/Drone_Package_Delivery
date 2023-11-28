@@ -9,4 +9,4 @@ In this section we will explain and justify why we design the path as in the vid
 ![6](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/0ee11c7a-642d-4095-8b1d-0d1de1cb030a)
 
 # Procedure 
-  For the procedure to initialize the simulator we must run the world file that is attached on the Project carpet (Drone_Package_Delivery/Project)
+  For the procedure to initialize the simulator we must run the world file that is attached on the Project carpet (Project/Project/worlds/Project.wbt)
