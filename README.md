@@ -10,6 +10,17 @@ In this section we will explain and justify why we design the path as in the vid
 
 ## Procedure 
   1. For the procedure to initialize the simulator we must run the world file that is attached on the Project carpet (Project/Project/worlds/Project.wbt).
-  2. We must put stop to the simulation for avoid any warning of the software. 
+
+![1](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/a54b3b56-3491-49b9-8022-6224d8352cb3)
+
+     
+  2. We must put stop to the simulation for avoid any warning of the software.
+
+![7](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/9815964e-619b-419e-b850-f6c5d1712c18)
+
+   
   3. Once we have the world on the webots software we have to upload the code that also is attached on the main files. (DPD_Code).
+
+
+    
   4. Define the coordinates of the path, in this case the code already have the a path that will deliver 10 package to different residences one by one. 
