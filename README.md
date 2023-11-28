@@ -15,7 +15,7 @@ On the carpet of the Project we have two worlds the one that said Project Test.w
 ![1](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/a54b3b56-3491-49b9-8022-6224d8352cb3)
 
      
-  3. We must put stop to the simulation to avoid any warning of the software.
+  2. We must put stop to the simulation to avoid any warning of the software.
 
 ![7](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/9815964e-619b-419e-b850-f6c5d1712c18)
 
@@ -25,7 +25,7 @@ On the carpet of the Project we have two worlds the one that said Project Test.w
 ![8](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/a5e5ec66-34d8-4c33-a6c6-641908fd7232)
 
     
-  4. Define the coordinates of the path, in this case the code already have the a path that will deliver 10 package to different residences one by one. 
+  4. Define the coordinates of the path, in this case the code already has a path that will deliver 10 package to different residences one by one. 
 
 ![3](https://github.com/EmmanuelRd02/Drone_Package_Delivery/assets/152221492/0dc8d2a1-16f7-45cf-a7ee-5eb1b16fac92)
 
